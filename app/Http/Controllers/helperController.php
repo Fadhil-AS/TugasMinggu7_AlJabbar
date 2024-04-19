@@ -27,7 +27,7 @@ class helperController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Menambahkan data Helper
      */
     public function store(Request $request)
     {

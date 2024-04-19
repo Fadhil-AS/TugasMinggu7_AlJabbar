@@ -5,6 +5,7 @@
 {{-- dataTable --}}
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 @section('container')
+{{-- IMPLEMENTASI HALAMAN HOMEPAGE --}}
 
     {{-- background image --}}
 
@@ -30,7 +31,7 @@
             <div class="platform">
                 <div class="container">
                     <div class="judul text-center">
-                        <h4 class="text-center" style="color: #47a992" >Platform Al-Jabbar untuk Industri Ekonomi</h4>
+                        <h4 class="text-center" style="color: #47a994" >Platform Al-Jabbar untuk Industri Ekonomi</h4>
                         <h2 class="text-center">Transportasi untuk masa depan bangsa</h2>
                     </div>
                     <div class="row mt-5">
