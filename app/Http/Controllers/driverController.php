@@ -109,7 +109,7 @@ class driverController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Menghapus data Driver dan data Local file foto driver
      */
     public function destroy(string $id_driver)
     {
