@@ -14,6 +14,7 @@
             </div>
         </div>
     </div>
+    {{-- MEMPERBAIKI TAMPILAN AGAR RESPONSIF --}}
 
     {{-- data Armada --}}
     <div class="dt mt-3 mb-3">
