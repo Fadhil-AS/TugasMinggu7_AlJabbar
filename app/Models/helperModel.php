@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\armadaModel;
 
+// Membuat koneksi ke table Helper
 class helperModel extends Model
 {
     use HasFactory;
