@@ -11,6 +11,7 @@
                     <h3><a href="/" class="link-underline link-underline-opacity-0 text-dark">Transport Berkah Armada</a></h3>
                 </div>
                 <form action="/login" class="form1" method="POST">
+                    {{-- @method('POST') --}}
                     @csrf
 
                     @if (session()->has('loginError'))
@@ -23,7 +24,7 @@
                     <h4 class="text-center">Masuk ke Akun</h4>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control @error('email') 
+                        <input type="email" class="form-control @error('email')
                             is-invalid
                         @enderror" id="email" name="email" aria-describedby="emailHelp" name="email" placeholder="Masukkan Email" required value="{{ old('email') }}">
                         @error('email')
