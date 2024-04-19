@@ -1,4 +1,5 @@
 $(function (){
+    //VALIDASI GABUNG
     let validator = $('form.form-valid').jbvalidator({
         errorMessage: true,
         successClass: true,
